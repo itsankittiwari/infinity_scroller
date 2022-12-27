@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+html{
+ box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Bebas Neue,sans-serif;
+    background-color: whitesmoke;
+}
+.ankit{
+  
+  position:sticky;
+  top: 0%;
+  background-color: rgb(250, 171, 2);
+  width: 100%;
+}
+h1{
+   text-align: center;
+   margin-top: 25px;
+   margin-bottom: 15px;
+   font-size: 40px;
+   letter-spacing: 5px;
+   padding: 20px 0px;
+   width: 100%;
+   margin-right: auto;
+   margin-left: auto;
+}
+.loader{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(231, 35, 35, 0.8);
+}
+.loader img{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.image-container{
+  margin: 31px 30%;
+
+}
+.image-container img{
+  margin-top: 5px;
+  width: 100%;
+}
+/* Media Query:Large Smartphone*/
+@media screen and (max-width: 600px){
+  h1{
+    font-size: 20px;
+  }
+  .image-container{
+    margin: 10px ;
+  }
+}
